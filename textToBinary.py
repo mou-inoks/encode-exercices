@@ -1,4 +1,4 @@
-text = "Coucou c'est salim"
+text = "Encrypte moi ! "
 
 
 def text_to_binary(text):
