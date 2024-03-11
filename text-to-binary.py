@@ -1,6 +1,5 @@
 text = "Encrypte moi !"
 
-
 def text_to_binary(text):
     return ''.join(format(i, '08b') for i in bytearray(text, encoding ='utf-8'))
 
@@ -19,3 +18,4 @@ decoded_text = binary_to_text(binary_text)
 
 print(binary_text)
 print(decoded_text)
+
